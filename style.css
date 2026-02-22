@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    background-color:rgb(255,255,250);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    background-color: rgb(0, 100, 100);
+}
+
+.header-inside {
+    max-width:1541px;
+    height: 243px;
+    margin:0px auto;
+    display: flex;
+    padding: 0px 30px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 64px;
+    color: white;
+    font-weight: 900;
+}
+
+.main-section {
+    padding: 16px;
+    display: flex;
+    margin: 32px auto;
+    max-width: 1400px;
+}
+
+.main-left {
+    padding: 32px;
+    flex-basis: 950px;
+    color: rgb(0, 100, 100);
+    font-size: 32px;
+}
+
+.main-left .title {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.video-box {
+    background-color: rgb(50,50,50);
+    width: auto;
+    height: 400px;
+    margin: 32px 0px;
+}
+.main-left p {
+    margin: 0px;
+}
+
+.main-right {
+    flex-basis: 575px;
+    padding: 32px;
+}
+
+.quote-request-box {
+    background-color: rgb(50,50,50);
+    height: 800px;
+    color:white;
+    padding: 32px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.selling-points {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    padding: 0px;
+    gap: 32px;
+}
+
+.selling-points li {
+    background-color: rgb(235,235,235);
+    flex-basis: 250px;
+    flex-grow: 1;
+    padding: 16px;
+    font-size:16px;
+}
+
+.selling-points .description {
+    color: black;
+}
+
+.selling-points li .title {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.consultation-box {
+    border: black 2px solid;
+    padding: 16px;
+    color:black;
+}
+
+.consultation-box .title {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.consultation-box .description {
+    font-size: 16px;
+}
